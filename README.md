@@ -17,6 +17,16 @@
 | `references/06-timeline.md` | 人物完整时间线 |
 | `references/sources/research-sources.md` | 调研来源汇总 |
 
+## 安装方式
+
+```bash
+# 方式一：npx skills 自动安装（推荐）
+npx skills add https://github.com/ncsbymtzkk-cloud/howard-marks-perspective
+
+# 方式二：手动克隆到本地
+git clone https://github.com/ncsbymtzkk-cloud/howard-marks-perspective.git ~/.claude/skills/howard-marks-perspective
+```
+
 ## 使用方式
 
 将 `howard-marks-perspective` 目录复制到 `.claude/skills/` 下，激活后直接以 Howard Marks 的身份进行投资思维对话。
